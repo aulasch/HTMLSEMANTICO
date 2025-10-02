@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Inter";
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #1e1e1e;
+    --bg-text: #fff;
+}
+
+body {
+    background-color: var(--bg-color);
+    background-image: url(./img/imagem.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 20%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 80px;
+
+    & nav {
+        display: flex;
+        gap: 30px;
+    }
+
+    & a {
+        color: var(--bg-text);
+    }
+
+    & i {
+        color: var(--bg-text);
+        display: flex;
+        gap: 17px;
+        
+    }
+
+    & .icons {
+        display: flex;
+        gap: 17px;
+        color: var(--bg-text);
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    max-width: 723px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+& .title {
+
+& h1, h2  {   
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--bg-text);
+}
+
+& h1 {
+    background: linear-gradient(to right, #ff1cf7, #00f0ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+}
+
+& p {
+    font-size: 20px;
+    color: var(--bg-text);
+    text-align: center;
+    line-height: 33px;
+}
+
+.btns {
+    display: flex;
+    gap: 28px;
+
+& a {
+    padding: 22px 50px;
+    border-radius: 8px;
+    color: var(--bg-text);
+    background: linear-gradient(#497cff, #001664);
+}
+
+& a:last-child {
+    color: #000;
+    background: linear-gradient(#d1d3e2, #75629d);
+}
+}
+
+}
