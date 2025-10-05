@@ -13,7 +13,7 @@
 
 body {
     background-color: var(--bg-color);
-    background-image: url(./img/imagem.svg);
+    background-image: url(./imagem.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 20% 20%;
@@ -101,5 +101,6 @@ main {
     background: linear-gradient(#d1d3e2, #75629d);
 }
 }
+
 
 }
